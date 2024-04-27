@@ -1,12 +1,16 @@
 # OpenGL-Project
-This is a simple 3D graphics project with OpenGL. SDL is used for this project too.
+This is a simple 3D graphics project using OpenGL.
+SDL is used for making the window.
 
-It consists with 3 parts, which are the ground, the light source object and pickiable objects.
+The demo consists with 3 parts.
 
+### Ground
 The ground is where the shadow of each objects are drawn.
 
-The light source object indicates position of the light source. It is moving, so it shows that drawing shadows is dynamic.
+### Light source object
+The light source object indicates position of the light source. It is moving and showing dynamic shadow drawing.
 
+### Pickable objects
 There are four objects that you can pick up and move by holding and dragging your mouse.
 - To enable picking up an object, I cast a line from the mouse position to object.
 - If you try to move down them under the ground, it checks the collision and denies.
